@@ -1,0 +1,13 @@
+webcam_reader_node:
+  ros__parameters:
+    frame_rate: 20.0
+
+gaze_tracker_node:
+  ros__parameters:
+    gaze_sensitivity: 5
+
+turtle_controller_node:
+  ros__parameters:
+    max_linear_speed: 0.5
+    max_angular_speed: 0.5
+    dead_zone: 0.1
