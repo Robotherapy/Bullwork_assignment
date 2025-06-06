@@ -96,16 +96,27 @@ Gaze values are normalized between -1.0 and 1.0. Movement is ignored if within t
 File Structure
 
 gaze_turtle_control/
+
 ├── config/
+
 │ └── params.yaml
+
 ├── launch/
+
 │ └── gaze_turtle_launch.py
+
 ├── gaze_turtle_control/
+
 │ ├── webcam_reader_node.py
+
 │ ├── gaze_tracker_node.py
+
 │ ├── turtle_controller_node.py
+
 │ └── camera_viewer_node.py
+
 ├── package.xml
+
 └── setup.py
 
 Known Issues
